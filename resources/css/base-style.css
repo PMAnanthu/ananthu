@@ -1,0 +1,218 @@
+/* *********************************
+   Some Style Overrides on Bootstrap
+********************************** */
+.navbar-inverse {
+  background-color: gold;
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 1px solid #333;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    background: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #22f;
+}
+
+.navbar-img{
+    margin: 1rem;
+    width: 5rem;
+}
+li a {
+    text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding: 6px 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  color: #22f;
+}
+li a:after {
+  content: "";
+  width: 0%;
+  margin-left: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  border-radius: 40%;
+  position: absolute;
+  transition: all 0.5s;
+}
+li a:hover:after {
+  background-color: #22f;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+li a.active:after {
+  background-color: #22f;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0px 0px 10px white;
+}
+
+/* *********************************
+             Toolbar Logo
+********************************** */
+.small-logo-container {
+  padding-top: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.small-logo {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 2px;
+}
+
+/* *********************************
+             Big Logo
+    ********************************** */
+.big-logo-row {
+  background:gold;
+  text-align: center;
+}
+.big-logo-row .big-logo-container {
+  padding-top: 60px;
+  padding-bottom: 35rem;
+}
+
+.mid-session h2 {
+  color: #16817a;
+  font-family: "Kalam", cursive;
+  font-size: 5rem;
+}
+.big-logo-row span {
+  font-family: "Orbitron", sans-serif;
+}
+.big-logo-row h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1em;
+  margin: 0;
+  padding-top: 10rem;
+}
+.data-row {
+  padding-top: 2%;
+}
+.profile-image {
+  width: 20%;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+.data-image {
+  width: 30%;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+.data-image:hover .profile-image:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.data-col {
+  margin: 15%;
+}
+.intro-text {
+  font-family: "Caveat", cursive;
+}
+@media (min-width: 300px) {
+  .big-logo-row h1 {
+    font-size: 3em;
+  }
+  .big-logo-row span {
+    font-size: 1.2rem;
+  }
+  .mid-session h2 {
+    font-size: 3rem;
+  }
+  .mid-session span {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .big-logo-row h1 {
+    font-size: 3em;
+  }
+  .big-logo-row span {
+    font-size: 1.2rem;
+  }
+  .mid-session h2 {
+    font-size: 3rem;
+  }
+  .mid-session span {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .big-logo-row h1 {
+    font-size: 6em;
+    margin-top: 10rem;
+  }
+  .big-logo-row span {
+    font-size: 2.5rem;
+  }
+  .mid-session h2 {
+    font-size: 4rem;
+  }
+  .mid-session span {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .big-logo-row h1 {
+    font-size: 8em;
+    margin-top: 10rem;
+  }
+  .big-logo-row span {
+    font-size: 2rem;
+  }
+  .mid-session h2 {
+    font-size: 6rem;
+  }
+  .mid-session span {
+    font-size: 4rem;
+  }
+}
+.nav-home-img {
+  width: 5%;
+}
+.mid-session {
+  text-align: center;
+  padding-top: rem;
+}
+
+.footer-container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    height: 20px;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+  }
+  
