@@ -241,12 +241,11 @@ li a.active:after {
 }
 
 .mid-container{
-    margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.mid-row{
-    margin-top: 2%;
+.mid-col{
+    margin-top: 2rem;
 }
 .photo{
     border-radius: 5%;
